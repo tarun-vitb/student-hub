@@ -2,15 +2,7 @@ import * as React from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Section, SectionHeader } from "@/components/ui/section-header"
 import { Badge } from "@/components/ui/badge"
-import { 
-  ShieldCheck, 
-  BarChart3, 
-  Zap, 
-  Users,
-  FileCheck,
-  Award,
-  ArrowUpRight
-} from "lucide-react"
+import { ShieldCheck, ChartBar as BarChart3, Zap, Users, FileCheck, Award, ArrowUpRight } from "lucide-react"
 
 const values = [
   {

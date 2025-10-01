@@ -6,11 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { CTA } from "@/components/ui/cta"
-import { 
-  CheckCircle,
-  ArrowRight,
-  Star
-} from "lucide-react"
+import { CircleCheck as CheckCircle, ArrowRight, Star } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Pricing Plans - Transparent & Institution-Friendly",

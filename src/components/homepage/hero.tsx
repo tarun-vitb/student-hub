@@ -4,7 +4,7 @@ import * as React from "react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Section } from "@/components/ui/section-header"
-import { ArrowRight, Play, Shield, Award, Users, BarChart } from "lucide-react"
+import { ArrowRight, Play, Shield, Award, Users, ChartBar as BarChart } from "lucide-react"
 
 const trustLogos = [
   { name: "IIT Delhi", logo: "/logos/iit-delhi.png" },

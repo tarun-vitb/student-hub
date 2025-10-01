@@ -6,16 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { CTA } from "@/components/ui/cta"
-import { 
-  GraduationCap,
-  Shield,
-  BarChart3,
-  Zap,
-  CheckCircle,
-  ArrowRight,
-  Award,
-  Database
-} from "lucide-react"
+import { GraduationCap, Shield, ChartBar as BarChart3, Zap, CircleCheck as CheckCircle, ArrowRight, Award, Database } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Product Overview - Complete Student Achievement Platform",
