@@ -76,13 +76,13 @@ const integrations = [
   { name: "Academic Databases", description: "Import from registrar systems" }
 ]
 
-export default function ProductPage() {
+export default async function ProductPage() {
   return (
     <>
       <Navigation />
       <main>
         {/* Hero Section */}
-        <Section className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-gradient-to-br from-indigo-50/50 to-teal-50/50 dark:from-stone-900 dark:to-stone-800">
+        <Section className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-gradient-to-br from-blue-50/50 to-teal-50/50 dark:from-stone-900 dark:to-stone-800">
           <div className="text-center space-y-8">
             <div className="flex justify-center">
               <Badge className="bg-primary/10 text-primary border-primary/20">
@@ -92,7 +92,7 @@ export default function ProductPage() {
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading text-balance">
               Every Feature Built for{" "}
-              <span className="bg-gradient-to-r from-indigo-600 to-teal-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
                 Indian Higher Education
               </span>
             </h1>
@@ -128,8 +128,8 @@ export default function ProductPage() {
                 <Card key={index} className="group hover:shadow-lg transition-all duration-300">
                   <CardHeader>
                     <div className="flex items-center gap-4">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-100 to-teal-100 dark:from-indigo-900 dark:to-teal-900 group-hover:scale-110 transition-transform duration-300">
-                        <feature.icon className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
+                      <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-100 to-teal-100 dark:from-blue-900 dark:to-teal-900 group-hover:scale-110 transition-transform duration-300">
+                        <feature.icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                       </div>
                       <div>
                         <CardTitle className="text-xl font-semibold">{feature.title}</CardTitle>
@@ -169,8 +169,8 @@ export default function ProductPage() {
               {integrations.map((integration, index) => (
                 <Card key={index} className="text-center glass">
                   <CardContent className="p-6 space-y-3">
-                    <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-indigo-100 to-teal-100 dark:from-indigo-900 dark:to-teal-900">
-                      <Zap className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />
+                    <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-blue-100 to-teal-100 dark:from-blue-900 dark:to-teal-900">
+                      <Zap className="w-8 h-8 text-blue-600 dark:text-blue-400" />
                     </div>
                     <h3 className="font-semibold">{integration.name}</h3>
                     <p className="text-sm text-muted-foreground">
@@ -237,7 +237,7 @@ export default function ProductPage() {
         </Section>
 
         {/* CTA Section */}
-        <Section className="bg-gradient-to-r from-indigo-600 to-teal-600">
+        <Section className="bg-gradient-to-r from-blue-600 to-teal-600">
           <CTA
             variant="gradient"
             title="Ready to Transform Your Institution?"

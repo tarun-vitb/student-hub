@@ -62,8 +62,8 @@ export function ValueGrid() {
             >
               <CardHeader className="pb-4">
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-100 to-teal-100 dark:from-indigo-900 dark:to-teal-900 group-hover:scale-110 transition-transform duration-300">
-                    <value.icon className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
+                  <div className="flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-100 to-teal-100 dark:from-blue-900 dark:to-teal-900 group-hover:scale-110 transition-transform duration-300">
+                    <value.icon className="w-6 h-6 text-blue-600 dark:text-blue-400" />
                   </div>
                   <ArrowUpRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
@@ -71,9 +71,9 @@ export function ValueGrid() {
                   <div className="flex items-center gap-2">
                     <CardTitle className="text-lg font-semibold">{value.title}</CardTitle>
                   </div>
-                  <Badge 
-                    variant="secondary" 
-                    className="text-xs font-medium bg-indigo-50 text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300"
+                  <Badge
+                    variant="secondary"
+                    className="text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-950 dark:text-blue-300"
                   >
                     {value.badge}
                   </Badge>
@@ -99,11 +99,11 @@ export function ValueGrid() {
         </div>
         
         {/* Additional Value Proposition */}
-        <div className="bg-gradient-to-r from-indigo-50 to-teal-50 dark:from-stone-900 dark:to-stone-800 rounded-3xl p-8 lg:p-12 text-center">
+        <div className="bg-gradient-to-r from-blue-50 to-teal-50 dark:from-stone-900 dark:to-stone-800 rounded-3xl p-8 lg:p-12 text-center">
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="flex items-center justify-center gap-2 mb-4">
-              <Award className="w-6 h-6 text-indigo-600" />
-              <Badge className="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-200">
+              <Award className="w-6 h-6 text-blue-600" />
+              <Badge className="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
                 Complete Solution
               </Badge>
             </div>
@@ -122,11 +122,11 @@ export function ValueGrid() {
                 <span>50% faster verification</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                 <span>2x compliance readiness</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
                 <span>90% faculty time saved</span>
               </div>
             </div>

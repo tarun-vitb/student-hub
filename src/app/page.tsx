@@ -7,7 +7,7 @@ import { Testimonials } from "@/components/homepage/testimonials"
 import { ComplianceSection, FinalCTA } from "@/components/homepage/testimonials"
 import { Footer } from "@/components/ui/footer"
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
       <Navigation />

@@ -127,13 +127,13 @@ const faqs = [
   }
 ]
 
-export default function PricingPage() {
+export default async function PricingPage() {
   return (
     <>
       <Navigation />
       <main>
         {/* Hero Section */}
-        <Section className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-gradient-to-br from-indigo-50/50 to-teal-50/50 dark:from-stone-900 dark:to-stone-800">
+        <Section className="pt-24 pb-16 lg:pt-32 lg:pb-24 bg-gradient-to-br from-blue-50/50 to-teal-50/50 dark:from-stone-900 dark:to-stone-800">
           <div className="text-center space-y-8 max-w-4xl mx-auto">
             <div className="flex justify-center">
               <Badge className="bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-200">
@@ -143,7 +143,7 @@ export default function PricingPage() {
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading text-balance">
               Pricing That Scales{" "}
-              <span className="bg-gradient-to-r from-indigo-600 to-teal-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
                 With Your Institution
               </span>
             </h1>
@@ -277,7 +277,7 @@ export default function PricingPage() {
         </Section>
 
         {/* CTA Section */}
-        <Section className="bg-gradient-to-r from-indigo-600 to-teal-600">
+        <Section className="bg-gradient-to-r from-blue-600 to-teal-600">
           <CTA
             variant="gradient"
             title="Still Have Questions?"
