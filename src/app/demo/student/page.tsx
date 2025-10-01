@@ -6,18 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { 
-  Award,
-  BookOpen,
-  Clock,
-  CheckCircle,
-  Plus,
-  Share2,
-  Download,
-  Calendar,
-  FileText,
-  User
-} from "lucide-react"
+import { Award, BookOpen, Clock, CircleCheck as CheckCircle, Plus, Share2, Download, Calendar, FileText, User } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Student Dashboard Demo - Portfolio Management",
@@ -68,10 +57,10 @@ const achievements = [
 ]
 
 const stats = [
-  { label: "Total Achievements", value: 47, icon: Award, color: "text-indigo-600" },
+  { label: "Total Achievements", value: 47, icon: Award, color: "text-blue-600" },
   { label: "Verified", value: 42, icon: CheckCircle, color: "text-teal-600" },
   { label: "Pending", value: 5, icon: Clock, color: "text-amber-600" },
-  { label: "Categories", value: 8, icon: BookOpen, color: "text-purple-600" }
+  { label: "Categories", value: 8, icon: BookOpen, color: "text-emerald-600" }
 ]
 
 const recentActivity = [
@@ -81,7 +70,7 @@ const recentActivity = [
   { action: "Evidence uploaded", item: "Research Paper Publication", time: "1 week ago" }
 ]
 
-export default function StudentDemoPage() {
+export default async function StudentDemoPage() {
   return (
     <>
       <Navigation />
@@ -91,7 +80,7 @@ export default function StudentDemoPage() {
           <div className="container py-8">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-teal-500 rounded-2xl flex items-center justify-center text-white text-xl font-bold">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center text-white text-xl font-bold">
                   PS
                 </div>
                 <div>
